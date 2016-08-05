@@ -22,10 +22,10 @@ NOTE: If you have the ```simple_form``` gem in your Gemfile, this command will g
 
 ## Customizing views
 
-The `devise:i18n:views` generator will copy all devise-i18n's views to your application so that you can modify the files as you wish.
+The `devise:views:i18n_templates` generator will copy all devise-i18n's views to your application so that you can modify the files as you wish.
 
 ``` sh
-rails g devise:i18n:views
+rails g devise:views:i18n_templates
 ```
 You should only do this if you really need to, though, because doing this will make it so that you won't get the updated views should they change in a future version of devise-i18n. To "uncustomize" the views, just delete them, and your app will go back to grabbing devise-i18n's default views.
 
